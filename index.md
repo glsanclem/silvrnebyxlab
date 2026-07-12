@@ -21,17 +21,14 @@ This lab serves as the central hub for my technical portfolio, bringing together
 <div class="challenge-grid">
 
 <div class="challenge-box">
-<h3><a href="https://glsanclem.github.io/2025_wicys_target_ctf/">2025 WiCyS Target Cyber Defense CTF</a></h3>
-<p>Technical writeups documenting selected Capture the Flag challenges, methodologies, and lessons learned.</p>
-</div>
-
-<div class="challenge-box">
 <h3><a href="https://glsanclem.github.io/2026-US-Cyber-Open-CTF/">2026 US Cyber Open CTF</a></h3>
 <p>Technical writeups documenting selected challenges, investigative methodology, and practical problem solving during the 2026 competition.</p>
 </div>
 
+<div class="challenge-box">
+<h3><a href="https://glsanclem.github.io/2025_wicys_target_ctf/">2025 WiCyS Target Cyber Defense CTF</a></h3>
+<p>Technical writeups documenting selected Capture the Flag challenges, methodologies, and lessons learned.</p>
 </div>
 
----
+</div>
 
-*Operated under LAXURYS.*
