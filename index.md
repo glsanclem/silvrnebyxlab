@@ -3,7 +3,7 @@ layout: default
 title: "SILVRNEBYX Lab"
 hero:
   heading: "SILVRNEBYX Lab"
-  text: "Cybersecurity, Artificial Intelligence, Emerging Technology, and Interdisciplinary Research."
+  text: "Cybersecurity | Artificial Intelligence | Emerging Technology | Technical Research."
 ---
 
 <div style="clear: both;"></div>
@@ -21,20 +21,16 @@ This lab serves as the central hub for my technical portfolio, bringing together
 <div class="challenge-grid">
 
 <div class="challenge-box">
-<h3><a href="#">2025 WiCyS Target Cyber Defense Challenge</a></h3>
-<p>Capture the Flag technical writeups and lessons learned.</p>
+<h3><a href="https://glsanclem.github.io/2025_wicys_target_ctf/">2025 WiCyS Target Cyber Defense CTF</a></h3>
+<p>Technical writeups documenting selected Capture the Flag challenges, methodologies, and lessons learned.</p>
 </div>
 
 <div class="challenge-box">
-<h3><a href="#">2026 US Cyber Open</a></h3>
-<p>Technical writeups documenting selected challenges, methodology, and investigative process.</p>
+<h3><a href="https://glsanclem.github.io/2026-US-Cyber-Open-CTF/">2026 US Cyber Open CTF</a></h3>
+<p>Technical writeups documenting selected challenges, investigative methodology, and practical problem solving during the 2026 competition.</p>
 </div>
 
 </div>
-
-## About
-
-SILVRNEBYX Lab reflects my continuing journey in cybersecurity, AI, and emerging technology. The focus is not simply on solving technical challenges, but on understanding how technology, security, and interdisciplinary thinking intersect to solve complex real world problems.
 
 ---
 
