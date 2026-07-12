@@ -6,18 +6,27 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
+  
+  <!-- Navigation Tabs (above header) -->
+  <nav class="site-nav">
+  <a href="{{ site.baseurl }}/" class="brand-link">
+    <img src="{{ site.baseurl }}/assets/images/logo-silvrnebyx.png" alt="SILVRNEBYX logo" class="nav-logo">
+  </a>
+
+  <div class="nav-links">
+    <a href="{{ site.baseurl }}/writeups" class="nav-link">Writeups</a>
+    <a href="{{ site.baseurl }}/projects" class="nav-link">Projects</a>
+    <a href="{{ site.baseurl }}/about" class="nav-link">About</a>
+    <a href="https://www.laxurys.com" class="nav-link">LAXURYS</a>
+  </div>
+</nav>
+  
   <!-- Header Block -->
   <header>
     <h1 class="site-title">{{ page.hero.heading }}</h1>
     <p class="site-description">{{ page.hero.text }}</p>
   </header>
-
-  <!-- Navigation Tabs (beneath header) -->
-  <nav class="site-nav">
-    <a href="{{ site.baseurl }}/" class="nav-link">Home</a>
-    <a href="{{ site.baseurl }}/resources" class="nav-link">Resources</a>
-  </nav>
-
+  
   <!-- Main Content -->
   <main class="main-content">
     {{ content }}
