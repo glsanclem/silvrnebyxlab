@@ -5,30 +5,41 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
-<body>
-  
-  <!-- Navigation Tabs (above header) -->
-  <nav class="site-nav">
-  <a href="{{ site.baseurl }}/" class="brand-link">
-    <img src="{{ site.baseurl }}/assets/images/logo-silvrnebyx.png" alt="SILVRNEBYX logo" class="nav-logo">
-  </a>
 
-  <div class="nav-links">
-    <a href="{{ site.baseurl }}/writeups" class="nav-link">writeups</a>
-    <a href="{{ site.baseurl }}/projects" class="nav-link">projects</a>
-    <a href="{{ site.baseurl }}/about" class="nav-link">about</a>
-    <a href="https://www.laxurys.com" class="nav-link">LAXURYS</a>
-  </div>
-</nav>
-  
+<body>
+
+  <!-- Navigation Tabs -->
+
+  <nav class="site-nav">
+
+    <a href="{{ site.baseurl }}/" class="brand-link">
+      <img src="{{ site.baseurl }}/assets/images/logo-silvrnebyx.png" alt="SILVRNEBYX logo" class="nav-logo">
+    </a>
+
+    <div class="nav-links">
+      <a href="{{ site.baseurl }}/writeups" class="nav-link">WRITEUPS</a>
+      <a href="{{ site.baseurl }}/projects" class="nav-link">PROJECTS</a>
+      <a href="{{ site.baseurl }}/about" class="nav-link">ABOUT</a>
+      <a href="https://www.laxurys.com" class="nav-link">LAXURYS</a>
+    </div>
+
+  </nav>
+
   <!-- Main Content -->
+
   <main class="main-content">
     {{ content }}
   </main>
 
   <!-- Footer -->
-  <footer>
-    <Copyright p>&copy; 2026 SILVRNEBYX. All rights reserved. | A LAXURYS Technical Hub. </p>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 SILVRNEBYX. All rights reserved. | A LAXURYS™ Technical Hub.</p>
   </footer>
+
+  <!-- JavaScript -->
+
+  <script src="{{ site.baseurl }}/assets/js/typewriter.js"></script>
+
 </body>
 </html>
