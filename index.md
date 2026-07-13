@@ -10,11 +10,73 @@ hero:
 
 <img src="/silvrnebyxlab/assets/images/banner-silvrnebyx.png" alt="SILVRNEBYX Lab Banner" style="width:100%; border-radius:10px;" />
 
-# Welcome
+<!-- --------------- HOMEPAGE ID SECTION--------------- -->
 
-SILVRNEBYX Lab is an interdisciplinary space dedicated to exploring cybersecurity, artificial intelligence, emerging technology, and technical experimentation through hands on learning, research, and real world projects.
+<section class="identity_section">
 
-This lab serves as the central hub for my technical portfolio, bringing together Capture the Flag competitions, cybersecurity writeups, research, and future technical explorations under a single identity.
+  <h1 class="creator_name">GAUDYS L. SANCLEMENTE</h1>
+
+<!-- --------------- ANIMATED TYPEWRITER --------------- -->
+
+  <div class="typewriter_line">
+    <span id="typewriter_text"></span>
+    <span class="typewriter_cursor">|</span>
+  </div>
+
+  <!-- --------------- HOMEPAGE BUTTONS --------------- -->
+
+  <div class="homepage_buttons">
+    <a href="{{ site.baseurl }}/writeups" class="challenge-box home-button">WRITEUPS</a>
+    <a href="{{ site.baseurl }}/projects" class="challenge-box home-button">PROJECTS</a>
+  </div>
+
+</section>
+
+<!-- --------------- TYPEWRITER SCRIPT --------------- -->
+
+<script>
+  const phrases = [
+    "Cybersecurity Researcher",
+    "CTF Competitor",
+    "AI Explorer",
+    "Emerging Tech Analyst",
+    "Interdisciplinary Researcher"
+  ];
+
+  const typewriterText = document.getElementById("typewriter_text");
+
+  let phraseIndex = 0;
+  let characterIndex = 0;
+  let isDeleting = false;
+
+  function typePhrase() {
+    const currentPhrase = phrases[phraseIndex];
+
+    if (isDeleting) {
+      characterIndex--;
+    } else {
+      characterIndex++;
+    }
+
+    typewriterText.textContent = currentPhrase.substring(0, characterIndex);
+
+    let delay = isDeleting ? 45 : 85;
+
+    if (!isDeleting && characterIndex === currentPhrase.length) {
+      delay = 1400;
+      isDeleting = true;
+    } else if (isDeleting && characterIndex === 0) {
+      isDeleting = false;
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+      delay = 350;
+    }
+
+    setTimeout(typePhrase, delay);
+  }
+
+  typePhrase();
+</script>
+
 
 ## Featured Projects
 
@@ -22,12 +84,10 @@ This lab serves as the central hub for my technical portfolio, bringing together
 
 <div class="challenge-box">
 <h3><a href="https://glsanclem.github.io/2026-US-Cyber-Open-CTF/">2026 US Cyber Open CTF</a></h3>
-<p>Technical writeups documenting selected challenges, investigative methodology, and practical problem solving during the 2026 competition.</p>
 </div>
 
 <div class="challenge-box">
 <h3><a href="https://glsanclem.github.io/2025_wicys_target_ctf/">2025 WiCyS Target Cyber Defense CTF</a></h3>
-<p>Technical writeups documenting selected Capture the Flag challenges, methodologies, and lessons learned.</p>
 </div>
 
 </div>
