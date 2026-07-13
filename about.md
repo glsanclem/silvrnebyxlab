@@ -5,8 +5,15 @@ title: "About"
 
 # ABOUT
 
-## The Creator
+<h2 style="color: #39ff14; margin-bottom: 0.35rem;"><em>##*The Creator*</em></h2>
 
-**SILVRNEBYX** was founded and maintained by Gaudys L. Sanclemente. The site is dedicated to cybersecurity, artificial intelligence, emerging technology, and technical research. The research, Capture the Flag writeups, and AI engineering projects presented here reflect independent technical work developed under the LAXURYS umbrella.
+<div style="width: 180px; height: 2px; margin-bottom: 1.5rem; background: #b026ff; box-shadow: 0 0 10px #b026ff;"></div>
 
-SILVRNEBYX serves as a living technical portfolio documenting Capture the Flag competitions, technical writeups, independent research, and ongoing experimentation while continuously expanding technical knowledge across multiple disciplines.
+**SILVRNEBYX(TM)** was founded by Gaudys L. Sanclemente as a technical hub developed under the **LAXURYS(TM)** umbrella.
+
+The site presents independent work in cybersecurity, artificial intelligence, emerging technology, technical research, and Capture the Flag competitions while documenting ongoing experimentation across multiple disciplines.
+
+
+
+
+
