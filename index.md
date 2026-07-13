@@ -36,62 +36,6 @@ hero:
 
 </section>
 
-<!-- --------------- TYPEWRITER SCRIPT --------------- -->
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  var phrases = [
-    "Cybersecurity Researcher",
-    "CTF Competitor",
-    "AI Explorer",
-    "Emerging Tech Analyst",
-    "Interdisciplinary Researcher"
-  ];
-
-  var typewriter_text = document.getElementById("typewriter_text");
-
-  if (!typewriter_text) {
-    return;
-  }
-
-  var phrase_index = 0;
-  var character_index = 0;
-  var is_deleting = false;
-
-  function type_phrase() {
-    var current_phrase = phrases[phrase_index];
-
-    if (is_deleting) {
-      character_index = character_index - 1;
-    } else {
-      character_index = character_index + 1;
-    }
-
-    typewriter_text.textContent =
-      current_phrase.substring(0, character_index);
-
-    var delay = is_deleting ? 45 : 85;
-
-    if (
-      !is_deleting &&
-      character_index === current_phrase.length
-    ) {
-      delay = 1400;
-      is_deleting = true;
-    } else if (
-      is_deleting &&
-      character_index === 0
-    ) {
-      is_deleting = false;
-      phrase_index = (phrase_index + 1) % phrases.length;
-      delay = 350;
-    }
-
-    window.setTimeout(type_phrase, delay);
-  }
-
-  type_phrase();
-});
-</script>
 
 
