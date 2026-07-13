@@ -1,4 +1,4 @@
-const phrases = [
+var phrases = [
   "Cybersecurity Researcher",
   "CTF Competitor",
   "AI Explorer",
@@ -6,44 +6,38 @@ const phrases = [
   "Interdisciplinary Researcher"
 ];
 
-document.addEventListener("DOMContentLoaded", () => {
+var textElement = document.getElementById("typewriter_text");
+var phraseIndex = 0;
+var letterIndex = 0;
+var deleting = false;
 
-  const text = document.getElementById("typewriter_text");
-
-  if (!text) return;
-
-  let phrase = 0;
-  let letter = 0;
-  let deleting = false;
-
-  function animate() {
-
-    const current = phrases[phrase];
-
-    if (deleting) {
-      letter--;
-    } else {
-      letter++;
-    }
-
-    text.textContent = current.substring(0, letter);
-
-    let speed = deleting ? 45 : 85;
-
-    if (!deleting && letter === current.length) {
-      speed = 1400;
-      deleting = true;
-    }
-
-    if (deleting && letter === 0) {
-      deleting = false;
-      phrase = (phrase + 1) % phrases.length;
-      speed = 350;
-    }
-
-    setTimeout(animate, speed);
+function animateTypewriter() {
+  if (!textElement) {
+    return;
   }
 
-  animate();
+  var currentPhrase = phrases[phraseIndex];
 
-});
+  if (deleting) {
+    letterIndex = letterIndex - 1;
+  } else {
+    letterIndex = letterIndex + 1;
+  }
+
+  textElement.textContent = currentPhrase.substring(0, letterIndex);
+
+  var speed = deleting ? 45 : 85;
+
+  if (!deleting && letterIndex === currentPhrase.length) {
+    speed = 1400;
+    deleting = true;
+  } else if (deleting && letterIndex === 0) {
+    deleting = false;
+    phraseIndex = (phraseIndex + 1) % phrases.length;
+    speed = 350;
+  }
+
+  window.setTimeout(animateTypewriter, speed);
+}
+
+animateTypewriter();
