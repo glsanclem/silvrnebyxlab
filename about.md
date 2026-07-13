@@ -9,7 +9,7 @@ title: "About"
 
 <div style="width: 180px; height: 2px; margin-bottom: 1.5rem; background: #b026ff; box-shadow: 0 0 10px #b026ff;"></div>
 
-**SILVRNEBYX(TM)** was founded by Gaudys L. Sanclemente as a technical hub developed under the **LAXURYS(TM)** umbrella.
+**SILVRNEBYX™** was founded by Gaudys L. Sanclemente as a technical hub developed under the **LAXURYS™** umbrella.
 
 The site presents independent work in cybersecurity, artificial intelligence, emerging technology, technical research, and Capture the Flag competitions while documenting ongoing experimentation across multiple disciplines.
 
