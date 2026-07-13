@@ -14,7 +14,11 @@ hero:
 
 <section class="identity_section">
 
-  <h1 class="creator_name">GAUDYS L. SANCLEMENTE</h1>
+  <h1 class="creator_name">Gaudys L. Sanclemente</h1>
+
+<p class="creator_role">Founder and Curator</p>
+
+<div class="creator_divider"></div>
 
 <!-- --------------- ANIMATED TYPEWRITER --------------- -->
 
