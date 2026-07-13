@@ -43,11 +43,16 @@ header h3,
 } 
 
 /* ------------- BODY STYLING (Default Color of Entire Page) ------------------ */ 
-body { 
- background-color: #0b0b0b; 
- color: #bfbfbf; 
- font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; 
-} 
+
+body {
+  background-color: #0b0b0b;
+  color: #bfbfbf;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 
 /* ----------- MAIN READING TEXT STYLING (Target Text Inside Content Area) ---------------- */
 
@@ -231,14 +236,14 @@ ul li {
 
 .site-nav .nav-link {
   color: #39ff14;
-  font-weight: bold;
+  font-weight: none;
   text-decoration: none;
   font-size: 1rem;
   white-space: nowrap;
 }
 
 .site-nav .nav-link:hover {
-  color: #ccff66;
+  color: #b026ff;
   text-decoration: underline;
 }
 
@@ -249,6 +254,12 @@ ul li {
  margin: 1.25rem auto; /* centers the content */ 
  padding: 0 1.5rem 3rem; /* side padding + bottom spacing */ 
  max-width: 1100px; /* a larger number pushes the content further out */ 
+ width: 100%;
+ box-sizing: border-box;
+}
+
+.main-content {
+  flex: 1;
 }
 
 /* ------------------- GRID LAYOUT FOR CHALLENGE BOXES ------------------- */
