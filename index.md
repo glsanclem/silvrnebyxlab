@@ -26,7 +26,7 @@ hero:
 <!-- --------------- HOMEPAGE BUTTONS --------------- -->
 
   <div class="homepage_buttons">
-    <a href="{{ site.baseurl }}/writeups/" class="challenge-box home-button">WRITEUPS</a>
+    <a href="{{ site.baseurl }}/writeups" class="challenge-box home-button">WRITEUPS</a>
     <a href="{{ site.baseurl }}/projects" class="challenge-box home-button">PROJECTS</a>
   </div>
 
