@@ -67,12 +67,6 @@ body {
  margin-bottom: 1.1rem;
 }
 
-/* ------------------- LINKS ------------------------------- */ 
-
-a { 
- color: #b026ff; /* Neon Cyber Purple links */ 
-} 
-
 /* ------------------- FOOTER STYLING ---------------------- */ 
 
 footer, .site-footer { 
@@ -167,6 +161,12 @@ h2, h3 {
 .challenge-box:hover { 
  transform: translateY(-2px); 
  box-shadow: 0 8px 18px rgba(0,0,0,0.7); 
+} 
+
+/* ------------------- LINKS ------------------------------- */ 
+
+a { 
+ color: #b026ff; /* Neon Cyber Purple links */ 
 } 
 
 /* ------------------- INNER HEADING INSIDE BOX (title, points, category) ------------------- */ 
