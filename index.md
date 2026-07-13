@@ -39,7 +39,8 @@ hero:
 <!-- --------------- TYPEWRITER SCRIPT --------------- -->
 
 <script>
-  const phrases = [
+document.addEventListener("DOMContentLoaded", function () {
+  var phrases = [
     "Cybersecurity Researcher",
     "CTF Competitor",
     "AI Explorer",
@@ -47,38 +48,50 @@ hero:
     "Interdisciplinary Researcher"
   ];
 
-  const typewriterText = document.getElementById("typewriter_text");
+  var typewriter_text = document.getElementById("typewriter_text");
 
-  let phraseIndex = 0;
-  let characterIndex = 0;
-  let isDeleting = false;
+  if (!typewriter_text) {
+    return;
+  }
 
-  function typePhrase() {
-    const currentPhrase = phrases[phraseIndex];
+  var phrase_index = 0;
+  var character_index = 0;
+  var is_deleting = false;
 
-    if (isDeleting) {
-      characterIndex--;
+  function type_phrase() {
+    var current_phrase = phrases[phrase_index];
+
+    if (is_deleting) {
+      character_index = character_index - 1;
     } else {
-      characterIndex++;
+      character_index = character_index + 1;
     }
 
-    typewriterText.textContent = currentPhrase.substring(0, characterIndex);
+    typewriter_text.textContent =
+      current_phrase.substring(0, character_index);
 
-    let delay = isDeleting ? 45 : 85;
+    var delay = is_deleting ? 45 : 85;
 
-    if (!isDeleting && characterIndex === currentPhrase.length) {
+    if (
+      !is_deleting &&
+      character_index === current_phrase.length
+    ) {
       delay = 1400;
-      isDeleting = true;
-    } else if (isDeleting && characterIndex === 0) {
-      isDeleting = false;
-      phraseIndex = (phraseIndex + 1) % phrases.length;
+      is_deleting = true;
+    } else if (
+      is_deleting &&
+      character_index === 0
+    ) {
+      is_deleting = false;
+      phrase_index = (phrase_index + 1) % phrases.length;
       delay = 350;
     }
 
-    setTimeout(typePhrase, delay);
+    window.setTimeout(type_phrase, delay);
   }
 
-  typePhrase();
+  type_phrase();
+});
 </script>
 
 
