@@ -22,10 +22,9 @@ hero:
 
 <!-- --------------- ANIMATED TYPEWRITER --------------- -->
 
-  <div class="typewriter_line">
-    <span id="typewriter_text"></span>
-    <span class="typewriter_cursor">|</span>
-  </div>
+<p class="identity_tags">
+  Cybersecurity Researcher | CTF Competitor | AI Explorer | Emerging Tech Analyst | Interdisciplinary Researcher
+</p>
 
 <!-- --------------- HOMEPAGE BUTTONS --------------- -->
 
