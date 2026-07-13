@@ -99,6 +99,25 @@ h2, h3 {
  font-weight: bold; /* keep bold styling if used by Hacker theme */ 
 } 
 
+/* ------------------- HOMEPAGE CREATOR IDENTITY ------------------- */
+
+.identity_section {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.creator_name {
+  color: #e8e8ee;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+  text-shadow:
+    0 0 6px rgba(255, 255, 255, 0.35),
+    0 0 14px rgba(176, 38, 255, 0.55);
+}
+
 /* ------------------- CHALLENGE BOX STYLING  -------------------- */ 
 
 .challenge-box { 
