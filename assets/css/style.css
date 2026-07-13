@@ -131,6 +131,20 @@ h2, h3 {
   box-shadow: 0 0 10px #b026ff;
 }
 
+.identity_tags {
+  color: #bfbfbf;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin: 0 0 2.5rem 0;
+}
+
+.homepage_buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 0;
+}
+
 /* ------------------- CHALLENGE BOX STYLING  -------------------- */ 
 
 .challenge-box { 
