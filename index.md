@@ -20,11 +20,15 @@ hero:
 
 <div class="creator_divider"></div>
 
-<!-- --------------- ANIMATED TYPEWRITER --------------- -->
+<!-- --------------- IDENTITY PILLS --------------- -->
 
-<p class="identity_tags">
-  Cybersecurity Researcher | CTF Competitor | AI Explorer | Emerging Tech Analyst | Interdisciplinary Researcher
-</p>
+<div class="identity_pills">
+  <span class="identity_pill">Cybersecurity Researcher</span>
+  <span class="identity_pill">CTF Competitor</span>
+  <span class="identity_pill">AI Explorer</span>
+  <span class="identity_pill">Emerging Tech Analyst</span>
+  <span class="identity_pill">Interdisciplinary Researcher</span>
+</div>
 
 <!-- --------------- HOMEPAGE BUTTONS --------------- -->
 
