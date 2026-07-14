@@ -126,9 +126,27 @@ h2, h3 {
 .creator_divider {
   width: 150px;
   height: 2px;
-  margin: 1rem auto 1.5rem;
+  margin: 1.75rem auto 2.5rem; /* Increases the space below Founder & Curator & more breathing room b/4 first pill */ 
   background-color: #b026ff;
   box-shadow: 0 0 10px #b026ff;
+}
+
+/* ------------------- SECTION DIVIDER ------------------- */
+
+.section_divider {
+  width: 150px;
+  height: 2px;
+  margin: 3rem auto 2rem; /* Creates more separation after the last pill */ 
+  background-color: #b026ff;
+  box-shadow: 0 0 10px #b026ff;
+}
+
+/* ------------------- EXPLORE PROMPT ------------------- */
+
+.explore_prompt {
+  color: #bfbfbf;
+  font-size: 1rem;
+  margin: 0 0 2.75rem; /* Gives the sentence breathing room before the buttons*/ 
 }
 
 /* ------------------- IDENTITY PILLS ------------------- */
