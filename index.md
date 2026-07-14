@@ -30,8 +30,6 @@ hero:
   <span class="identity_pill">Interdisciplinary Researcher</span>
 </div>
 
-</div>
-
 <!-- --------------- INTERACTIVE SECTION DIVIDER --------------- -->
 
 <div class="creator_divider"></div> 
