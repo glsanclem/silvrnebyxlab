@@ -106,13 +106,14 @@ h2, h3 {
 }
 
 .creator_name {
-  color: #e8e8ee;
-  font-size: clamp(1.8rem, 4vw, 2.7rem);
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  color: #d8d8df;
+  font-family: "Copperplate", "Bank Gothic", "Trebuchet MS", sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: normal;
+  letter-spacing: 0.08em;
   line-height: 1.2;
   margin: 0 0 0.65rem 0;
-  text-shadow: none;
+  text-shadow: 0 1px 1px #555555;
 }
 
 .creator_role {
@@ -130,11 +131,65 @@ h2, h3 {
   box-shadow: 0 0 10px #b026ff;
 }
 
-.identity_tags {
-  color: #bfbfbf;
-  font-size: 1rem;
-  line-height: 1.8;
-  margin: 0 0 7.5rem 0;
+/* ------------------- IDENTITY PILLS ------------------- */
+
+.identity_pills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 3rem 0;
+}
+
+.identity_pill {
+  width: 290px;
+  max-width: 90%;
+  padding: 0.65rem 1.2rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(57, 255, 20, 0.5);
+  border-radius: 999px;
+  background-color: #101010;
+  color: #39ff14;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  opacity: 0.55;
+  animation: identityPulse 7.5s ease-in-out infinite;
+}
+
+.identity_pill:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.identity_pill:nth-child(2) {
+  animation-delay: 1.5s;
+}
+
+.identity_pill:nth-child(3) {
+  animation-delay: 3s;
+}
+
+.identity_pill:nth-child(4) {
+  animation-delay: 4.5s;
+}
+
+.identity_pill:nth-child(5) {
+  animation-delay: 6s;
+}
+
+@keyframes identityPulse {
+  0%,
+  20%,
+  100% {
+    opacity: 0.55;
+    border-color: rgba(57, 255, 20, 0.4);
+    transform: scale(1);
+  }
+
+  8% {
+    opacity: 1;
+    border-color: #39ff14;
+    transform: scale(1.02);
+  }
 }
 
 .homepage_buttons {
