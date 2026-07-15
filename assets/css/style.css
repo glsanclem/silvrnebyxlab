@@ -245,18 +245,7 @@ h2, h3 {
 
 /* ------------------- LINKS ------------------------------- */ 
 
-.challenge-box a,
-.challenge-box a:visited {
-  color: #39ff14;
-  text-decoration: none !important;
-  font-weight: 600;
-}
 
-.challenge-box:hover a,
-.challenge-box:hover a:visited {
-  color: #ffffff;
-  text-decoration: none !important;
-}
 
 /* ------------------- INNER HEADING INSIDE BOX (title, points, category) ------------------- */ 
 
@@ -264,17 +253,6 @@ h2, h3 {
  color: #39ff14; /* neon green to match Hacker titles */ 
  margin-top: 0; 
 } 
-
-.challenge-box a {
-  color: #39ff14;
-  text-decoration: none; /* eliminates the underline */
-  font-weight: 600;
-}
-
-.challenge-box:hover a {
-  color: #ffffff; /* White font on hover */
-  text-decoration: none;
-}
 
 /* ------------------- BOLD THE SMALL METADATA ------------------- */ 
 
