@@ -306,6 +306,11 @@ ul li {
   padding: 1rem 2rem;
   box-sizing: border-box;
   background-color: #000000;
+
+  position: sticky;      /* Makes the navigation stick to the top while scrolling */
+  top: 0;                /* Locks it to the top of the page */
+  z-index: 1000;         /* Ensures it stays above the page content */
+  border-bottom: 1px solid rgba(176, 38, 255, 0.35); /* Adds a subtle purple separator between the nav bar and page */
 }
 
 /* ------------------- LOGO ON LEFT ------------------- */
