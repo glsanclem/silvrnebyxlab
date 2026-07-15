@@ -7,6 +7,8 @@ title: "Projects"
 
 ## Selected Technical Projects
 
+<div style="width: 180px; height: 2px; margin-top: 1.0rem; margin-bottom: 1.5rem; background: #b026ff; box-shadow: 0 0 10px #b026ff;"></div>
+
 <div class="network-divider">
   <span class="network-node"></span>
 </div>
