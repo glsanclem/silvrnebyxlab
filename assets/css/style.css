@@ -245,7 +245,28 @@ h2, h3 {
 
 /* ------------------- LINKS ------------------------------- */ 
 
+.home-button,
+.home-button:visited {
+  display: inline-block;
+  background-color: transparent !important;
+  border: 1px solid #39ff14 !important;
+  color: #39ff14 !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
 
+.home-button:hover,
+.home-button:focus {
+  background-color: rgba(176, 38, 255, 0.22) !important;
+  border-color: #39ff14 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  box-shadow:
+    inset 0 0 18px rgba(176, 38, 255, 0.22),
+    0 0 12px rgba(176, 38, 255, 0.4) !important;
+}
 
 /* ------------------- INNER HEADING INSIDE BOX (title, points, category) ------------------- */ 
 
