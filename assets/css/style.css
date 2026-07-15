@@ -214,8 +214,8 @@ h2, h3 {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: 3;
-  padding-top: 2rem;
+  margin-top: 0;
+  padding-top: 2.2rem;
 }
 
 /* ------------------- CHALLENGE BOX STYLING  -------------------- */ 
