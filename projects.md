@@ -5,18 +5,24 @@ title: "Projects"
 
 # PROJECTS
 
-## *Selected Technical Work*
+## Selected Technical Projects
+
+<div class="network-divider">
+  <span class="network-node"></span>
+</div>
+
+A curated selection of technical projects involving cybersecurity testing, artificial intelligence, data analysis, visualization, and interdisciplinary research.
 
 <div class="challenge-grid">
 
 <div class="challenge-box">
-<h3>SILVRNEBYX Lab</h3>
-<p>A technical hub designed and developed to organize cybersecurity, artificial intelligence, emerging technology, and interdisciplinary technical work.</p>
+<h3>WiCyS Vulnerability Disclosure Program</h3>
+<p>Conducted authorized authentication testing through the WiCyS Vulnerability Disclosure Program, examining repeated login attempts, rate limiting behavior, multifactor authentication, and valid credential access.</p>
 </div>
 
 <div class="challenge-box">
-<h3>WiCyS Vulnerability Disclosure Program</h3>
-<p>Authentication testing focused on repeated login attempts, rate limiting behavior, multifactor authentication, and successful access using valid credentials.</p>
+<h3>Coro: The Plasma Who Danced with Earth</h3>
+<p>An interdisciplinary technical project created to communicate space weather and aurora science through data visualization, research, and digital storytelling. Developed as an independent project integrating scientific communication, emerging technology, and visual design.</p>
 </div>
 
 </div>
