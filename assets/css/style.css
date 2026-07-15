@@ -136,7 +136,7 @@ h2, h3 {
 .section_divider {
   width: 150px;
   height: 2px;
-  margin: 3rem auto 2rem; /* Creates more separation after the last pill */ 
+  margin: 3rem auto 3rem; /* 3rem: space above the line & 3rem: space below the line */ 
   background-color: #b026ff;
   box-shadow: 0 0 10px #b026ff;
 }
@@ -214,8 +214,8 @@ h2, h3 {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-top: 0;
-  padding-top: 2.2rem;
+  margin-top: 0; /* No extra space outside the button container */
+  padding-top: 2rem;  /* Creates vertical space between the "Explore..." sentence and the buttons */
 }
 
 /* ------------------- CHALLENGE BOX STYLING  -------------------- */ 
