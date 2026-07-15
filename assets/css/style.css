@@ -146,7 +146,7 @@ h2, h3 {
 .explore_prompt {
   color: #bfbfbf;
   font-size: 1rem;
-  margin: 0 0 2.75rem; /* Gives the sentence breathing room before the buttons*/ 
+  margin: 0 0 3.00rem; /* Gives the sentence breathing room before the buttons*/ 
 }
 
 /* ------------------- IDENTITY PILLS ------------------- */
