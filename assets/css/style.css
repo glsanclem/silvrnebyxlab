@@ -323,8 +323,8 @@ ul li {
 
 .nav-logo {
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 72px; /* Slightly larger logo for the sticky navigation */
+  height: 72px;
   object-fit: contain;
 }
 
