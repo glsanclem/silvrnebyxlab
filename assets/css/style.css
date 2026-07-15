@@ -220,22 +220,27 @@ h2, h3 {
 
 /* ------------------- CHALLENGE BOX STYLING  -------------------- */ 
 
-.challenge-box { 
- background-color: #1a1a1a; /* dark gray so it contrasts with body */ 
- border: 1px solid #39ff14; /* neon green border to match Hacker theme */ 
- border-radius: 0.6rem; /* smooth rounded corners */ 
- padding: 1.5rem 1.8rem; /* inner spacing for text */ 
- margin-bottom: 2rem; /* space between boxes */ 
- box-shadow: 0 4px 12px rgba(0,0,0,0.5); /* subtle shadow to pop */ 
- transition: transform 0.2s ease, box-shadow 0.2s ease; 
-} 
+.challenge-box {
+  background-color: transparent; /* removes the gray fill */
+  border: 1px solid #39ff14;
+  border-radius: 0.6rem;
+  padding: 1.6rem 2.2rem;
+  margin-bottom: 2rem;
+  box-shadow: none; /* removes the shadow */
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.2s ease;
+}
 
 /* ------------------- HOVER EFFECT FOR LITTLE INTERACTIVE ------------------- */ 
 
-.challenge-box:hover { 
- transform: translateY(-2px); 
- box-shadow: 0 8px 18px rgba(0,0,0,0.7); 
-} 
+.challenge-box:hover {
+  background-color: #b026ff; /* The whole button becomes purple */
+  border-color: #b026ff;
+  transform: translateY(-2px);
+}
 
 /* ------------------- LINKS ------------------------------- */ 
 
@@ -249,6 +254,17 @@ a {
  color: #39ff14; /* neon green to match Hacker titles */ 
  margin-top: 0; 
 } 
+
+.challenge-box a {
+  color: #39ff14;
+  text-decoration: none; /* eliminates the underline */
+  font-weight: 600;
+}
+
+.challenge-box:hover a {
+  color: #ffffff; /* White font on hover */
+  text-decoration: none;
+}
 
 /* ------------------- BOLD THE SMALL METADATA ------------------- */ 
 
