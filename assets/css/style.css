@@ -237,16 +237,26 @@ h2, h3 {
 /* ------------------- HOVER EFFECT FOR LITTLE INTERACTIVE ------------------- */ 
 
 .challenge-box:hover {
-  background-color: #b026ff; /* The whole button becomes purple */
-  border-color: #b026ff;
+  background-color: rgba(176, 38, 255, 0.18); /* The whole button becomes purple */
+  border-color: #39ff14;
   transform: translateY(-2px);
+  box-shadow: 0 0 14px rgba(176, 38, 255, 0.45);
 }
 
 /* ------------------- LINKS ------------------------------- */ 
 
-a { 
- color: #b026ff; /* Neon Cyber Purple links */ 
-} 
+.challenge-box a,
+.challenge-box a:visited {
+  color: #39ff14;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+.challenge-box:hover a,
+.challenge-box:hover a:visited {
+  color: #ffffff;
+  text-decoration: none !important;
+}
 
 /* ------------------- INNER HEADING INSIDE BOX (title, points, category) ------------------- */ 
 
