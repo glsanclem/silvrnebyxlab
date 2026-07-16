@@ -146,7 +146,7 @@ h2, h3 {
 .network_divider {
   position: relative;
   width: 40%;
-  min-width: 200px;
+  min-width: 150px;
   height: 2px;
   margin: 1.25rem 0 2.5rem;
   background-color: #b026ff;
