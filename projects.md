@@ -5,7 +5,7 @@ title: "Projects"
 
 # PROJECTS
 
-## *Selected Technical Works*
+## *Featured Technical Works*
 
 <div style="width: 180px; height: 2px; margin-top: 1.0rem; margin-bottom: 1.5rem; background: #b026ff; box-shadow: 0 0 10px #b026ff;"></div>
 
