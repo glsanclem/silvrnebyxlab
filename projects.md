@@ -7,11 +7,7 @@ title: "Projects"
 
 ## *Featured Technical Works*
 
-<div style="width: 180px; height: 2px; margin-top: 1.0rem; margin-bottom: 1.5rem; background: #b026ff; box-shadow: 0 0 10px #b026ff;"></div>
-
-<div class="network-divider">
-  <span class="network-node"></span>
-</div>
+<div class="network_divider"></div>
 
 A curated selection of technical projects involving cybersecurity testing, artificial intelligence, data analysis, visualization, and interdisciplinary research.
 
