@@ -145,7 +145,7 @@ h2, h3 {
 
 .network_divider {
   position: relative;
-  width: 40%;
+  width: 35%; /* extends a little beyond the subtitle.*/
   min-width: 150px;
   height: 2px;
   margin: 1.25rem 0 2.5rem;
