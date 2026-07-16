@@ -145,24 +145,24 @@ h2, h3 {
 
 .network_divider {
   position: relative;
-  width: 40%;
-  min-width: 240px;
+  width: 52%;
+  min-width: 340px;
   height: 2px;
-  margin: 1.2rem 0 2.4rem;
+  margin: 1.25rem 0 2.5rem;
   background-color: #b026ff;
-  box-shadow: 0 0 10px rgba(176, 38, 255, 0.6);
+  box-shadow: 0 0 8px rgba(176, 38, 255, 0.6);
 }
 
 .network_divider::after {
   content: "";
   position: absolute;
-  right: -7px;
+  right: 0;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(50%, -50%);
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #b026ff;
+  background-color: #b026ff;
   box-shadow: 0 0 10px rgba(176, 38, 255, 0.8);
 }
 
