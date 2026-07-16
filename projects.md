@@ -9,6 +9,13 @@ title: "Projects"
 
 <div class="network_divider"></div>
 
+<div class="project_legend">
+  <span class="legend_item research"><span class="legend_dot"></span>Research</span>
+  <span class="legend_item active"><span class="legend_dot"></span>Active</span>
+  <span class="legend_item complete"><span class="legend_dot"></span>Complete</span>
+  <span class="legend_item prototype"><span class="legend_dot"></span>Prototype</span>
+</div>
+
 A curated selection of technical projects involving cybersecurity testing, artificial intelligence, data analysis, visualization, and interdisciplinary research.
 
 <div class="challenge-grid">
