@@ -24,6 +24,7 @@ A curated selection of technical projects involving cybersecurity testing, artif
 
 <div class="challenge-box">
 <h3>Coro: The Plasma Who Danced with Earth</h3>
+<p>`Storytelling` `visualization`</p>
 <p>An interdisciplinary technical project created to communicate space weather and aurora science through data visualization, research, and digital storytelling. Developed as an independent project integrating scientific communication, emerging technology, and visual design.</p>
 
 <p><h4>Explore the project on LAXURYS ></h4></p>
