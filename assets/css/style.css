@@ -166,6 +166,52 @@ h2, h3 {
   box-shadow: 0 0 10px rgba(176, 38, 255, 0.8);
 }
 
+/* ------------------- PROJECT STATUS LEGEND DOTS ------------------- */
+
+.project_legend {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  margin: -3.1rem 0 2.5rem;
+  font-size: 0.82rem;
+  color: #bfbfbf;
+}
+
+.legend_item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.legend_dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* Status Colors */
+
+.research .legend_dot {
+  background: #d8d8df;
+  box-shadow: 0 0 6px #d8d8df;
+}
+
+.active .legend_dot {
+  background: #FFD54A;
+  box-shadow: 0 0 6px #FFD54A;
+}
+
+.complete .legend_dot {
+  background: #39ff14;
+  box-shadow: 0 0 6px #39ff14;
+}
+
+.prototype .legend_dot {
+  background: #ff4fd8;
+  box-shadow: 0 0 6px #ff4fd8;
+}
+
 /* ------------------- EXPLORE PROMPT ------------------- */
 
 .explore_prompt {
