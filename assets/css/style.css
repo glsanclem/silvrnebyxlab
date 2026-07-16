@@ -141,6 +141,31 @@ h2, h3 {
   box-shadow: 0 0 10px #b026ff;
 }
 
+/* ------------------- NETWORK DIVIDER ------------------- */
+
+.network_divider {
+  position: relative;
+  width: 40%;
+  min-width: 240px;
+  height: 2px;
+  margin: 1.2rem 0 2.4rem;
+  background-color: #b026ff;
+  box-shadow: 0 0 10px rgba(176, 38, 255, 0.6);
+}
+
+.network_divider::after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #b026ff;
+  box-shadow: 0 0 10px rgba(176, 38, 255, 0.8);
+}
+
 /* ------------------- EXPLORE PROMPT ------------------- */
 
 .explore_prompt {
