@@ -5,7 +5,7 @@ title: "Projects"
 
 # PROJECTS
 
-## Selected Technical Projects
+## Selected Technical Works
 
 <div style="width: 180px; height: 2px; margin-top: 1.0rem; margin-bottom: 1.5rem; background: #b026ff; box-shadow: 0 0 10px #b026ff;"></div>
 
@@ -24,7 +24,9 @@ A curated selection of technical projects involving cybersecurity testing, artif
 
 <div class="challenge-box">
 <h3>Coro: The Plasma Who Danced with Earth</h3>
-<p>An interdisciplinary technical project created to communicate space weather and aurora science through data visualization, research, and digital storytelling. Developed as an independent project integrating scientific communication, emerging technology, and visual design.</p>
+<p>An interdisciplinary technical project created to communicate space weather and aurora science through data visualization, research, and digital storytelling. Developed as an independent project integrating scientific communication, emerging technology, and visual design.
+
+Explore the project on LAXURYS</p>
 </div>
 
 </div>
