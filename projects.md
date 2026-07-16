@@ -5,7 +5,7 @@ title: "Projects"
 
 # PROJECTS
 
-## *Featured Technical Works*
+## Featured Technical Works
 
 <div class="network_divider"></div>
 
